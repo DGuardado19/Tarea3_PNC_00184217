@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Ingrese nuevo alumno:</h1>
+
+	<div>
+		<form action="post" th:action="@{/parametros}">
+			<input id="nombre" type="text" placeholder="Alejandro" name="nombre">
+			<br>
+			<br>
+			<input id="apellido" type="text" placeholder="Guardado" name="apellido">
+			<br>
+			<br>
+			
+			<input id="fecha" type="date"  name="fecha">
+			<br>
+			<br>
+			
+			<input id="lugar" type="text" placeholder="Santa Tecla" name="lugar">
+			<br>
+			<br>
+			
+			<input id="instituto" type="text" placeholder="Escuela Cristiana Internacional" name="instituto">
+			<br>
+			<br>
+			
+			<input id="fijo" type="number" placeholder="22577777" name="fijo">
+			<br>
+			<br>
+			
+			<input id="movil" type="number" placeholder="78691783" name="movil">
+			<br>
+			<br>
+			
+			<input type="submit" value="Ingresar alumno">
+		</form>
+	</div>
+
+</body>
+</html>
